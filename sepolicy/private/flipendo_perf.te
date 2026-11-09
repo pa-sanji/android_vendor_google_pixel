@@ -1,0 +1,4 @@
+# Allow Flipendo to use the perf HAL (stock HIDL 2.2 backend).
+# This lives here because the flipendo type is declared in this directory,
+# which is parsed after vendor/aospa's system_ext private policy.
+hal_client_domain(flipendo, vendor_hal_perf)
