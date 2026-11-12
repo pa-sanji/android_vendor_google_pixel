@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "AOSPAPixelSetupWizardOverlay",
+    name: "SetupWizardOverlay",
     product_specific: true,
 }
